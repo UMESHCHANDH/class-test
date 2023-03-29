@@ -1,0 +1,16 @@
+#include<stdio.h>;
+ int main()
+ {
+ 	int a;
+ 	printf(" enter any number to check it's sign :'");
+ 	scanf("%d",&a);
+ 	if(a<0)
+ 	{
+ 		printf("%d is negative",a);
+	 }
+    else if(a>0) 
+    {  
+	printf("%d is positive",a);
+	}
+     return 0;
+}
